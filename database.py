@@ -18,17 +18,3 @@ config = {
 
 db = mysql.connector.connect(**config)
 cursor = db.cursor()
-
-
-# import mysql.connector
-# from mysql.connector import errorcode
-
-# config = {
-#     'user': 'root',
-#     'password': 'Tmacvc12!',
-#     'host': 'localhost',
-#     'database': 'acme'
-# }
-
-# db = mysql.connector.connect(**config)
-# cursor = db.cursor()
